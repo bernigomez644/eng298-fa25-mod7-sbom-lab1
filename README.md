@@ -141,7 +141,7 @@ So the full path means: “Save the SBOM JSON file one level up, inside the deli
 
 **trivy** Open-source command-line tool used to generate SBOMs as well as scan filesystems, containers, and repositories for vulnerabilities
 
-**fs** Program sub-command, short for file system, tells Trivy to scan the local files and directories (not a Docker image or repo)
+**fs** Program sub-command, short for **filesystem**, tells Trivy to scan the local files and directories (not a Docker image or repo)
 
 **.** The single dot (.) means “the current directory.” Trivy will inspect all the code and dependencies in your current working, which is ng911-dev 
 
