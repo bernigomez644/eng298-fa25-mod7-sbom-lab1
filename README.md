@@ -251,7 +251,7 @@ deliverables/
    
    - Copy the URL from your browser’s address bar.
 
-3. Submit the URL in Canvas
+3. Submit the URL in Canvas: Module 7: Assignment: Secure Software Supply Chain with SBOMs  
 
 ## **Grading Rubric (20 Points Total)**
 
