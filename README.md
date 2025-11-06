@@ -78,7 +78,7 @@ All commands can be executed directly inside your GitHub Codespace using this re
    git clone https://github.com/tamu-edu/ng911-dev.git
    ```
 
-### Syntax Breakdown
+**Syntax Breakdown**:
 
 **git** This invokes the **Git** command-line tool — the version control system used to manage source code repositories.
 
@@ -112,7 +112,7 @@ All commands can be executed directly inside your GitHub Codespace using this re
    ```bash
    syft . -o spdx-json > ../deliverables/sbom_syft_spdx.json
    ```
-### Syntax Breakdown
+**Syntax Breakdown**:
 
 **syft** Open-source command-line tool used to generate an SBOM. Scans a project or container image to identify all the packages and dependencies present
 
@@ -137,7 +137,7 @@ So the full path means: “Save the SBOM JSON file one level up, inside the deli
    ```bash
    trivy fs . --format cyclonedx --output ../deliverables/sbom_trivy_cdx.json
    ```
-### Syntax Breakdown
+**Syntax Breakdown**:
 
 **trivy** Open-source command-line tool used to generate SBOMs as well as scan filesystems, containers, and repositories for vulnerabilities
 
@@ -176,7 +176,7 @@ So the file will be created as ../deliverables/sbom_trivy_cdx.json
    ```bash
    grype sbom:../deliverables/sbom_syft_spdx.json -o table > ../deliverables/vuln_analysis_grype.txt
    ```
-### Syntax Breakdown
+**Syntax Breakdown**:
 
 **grype** Open-source command-line tool used to scans software packages and SBOMs for known vulnerabilities (CVEs) by checking them against vulnerability databases (e.g.,  National Vulnerability Database (NVD) or GitHub Security Advisories)
 
@@ -207,7 +207,7 @@ sbom: → The prefix tells Grype the input is an SBOM file, not a filesystem or 
    ```bash
    head -20 ../deliverables/vuln_analysis_grype.txt
    ```
-### Syntax Breakdown
+**Syntax Breakdown**:
 
 **head** Linux command used to display the first part of a text file. By default, it shows the first 10 lines, but you can specify a different number using the -n or shorthand -<number> option
 
